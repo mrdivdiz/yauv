@@ -1,6 +1,10 @@
 # yauv
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
+
 Known bugs: A LOT (navigate to issues)
+
+**No ragdolls because the way they made is no longer supported in Unity 5**
+
 This repo contains source code and is defined to gather info about bugs & crashes.
 
 **Project goal:**
