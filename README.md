@@ -1,4 +1,7 @@
 # yauv
+
+**24.10.21 Cannot upload source code due to unknown reasons.Cannot reach github, vkontakte or even mega properly.VPN is not starting too.**
+
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
 
 Known bugs: A LOT (navigate to issues)
