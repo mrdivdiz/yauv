@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1023991606018472}
+  m_IsPrefabParent: 1
+--- !u!1 &1023991606018472
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4920612042984549}
+  - component: {fileID: 131741493766471534}
+  - component: {fileID: 114233165804478836}
+  m_Layer: 1
+  m_Name: MeleeJoystick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4920612042984549
+Transform:
+  m_GameObject: {fileID: 1023991606018472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -848.6146, y: -97.08979, z: -355.0597}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4165942240059576}
+  - {fileID: 4978053219899287}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131741493766471534
+GUITexture:
+  m_GameObject: {fileID: 1023991606018472}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 550cdf60b2e0548488fc796f229ac026, type: 3}
+  m_Color: {r: 0.7537314, g: 0.7537314, b: 0.7537314, a: 0.345098}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 77.11076
+    y: 74.62122
+    width: 100
+    height: 100
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!114 &114233165804478836
+MonoBehaviour:
+  m_GameObject: {fileID: 1023991606018472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b8b9b47e24dc443aa1797542556c02, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  touchPad: 0
+  touchZone:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  deadZone: 0
+  normalize: 0
+  position: {x: 0, y: 0}
+  tapCount: 0
+  gui: {fileID: 0}
+  guiBackGround: {fileID: 131565567372958903}
+--- !u!1 &1331504649510605
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165942240059576}
+  - component: {fileID: 131565567372958903}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165942240059576
+Transform:
+  m_GameObject: {fileID: 1331504649510605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: -1}
+  m_Children: []
+  m_Father: {fileID: 4920612042984549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131565567372958903
+GUITexture:
+  m_GameObject: {fileID: 1331504649510605}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 4e485ae0ca36f484cb85724ee4f60a54, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 22.46927
+    y: 18.99899
+    width: 210
+    height: 210
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &1243588260787703
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4978053219899287}
+  - component: {fileID: 114504668013771274}
+  m_Layer: 0
+  m_Name: MobileButtons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4978053219899287
+Transform:
+  m_GameObject: {fileID: 1243588260787703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4124548851032434}
+  - {fileID: 4349648853261609}
+  - {fileID: 4851493502752733}
+  - {fileID: 4586105605249917}
+  - {fileID: 4644589163833791}
+  - {fileID: 4643248766491308}
+  m_Father: {fileID: 4920612042984549}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114504668013771274
+MonoBehaviour:
+  m_GameObject: {fileID: 1243588260787703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d860504fc9aa8447974dceeacc4562e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rightPunchButton: {fileID: 131472070094960159}
+  leftKickButton: {fileID: 131069883407026342}
+  rightKickButton: {fileID: 131807251207956219}
+  blockButton: {fileID: 131264051886255032}
+  pauseButton: {fileID: 131791281849183312}
+  leftPunchButton: {fileID: 131473563039672250}
+--- !u!1 &1404604732203730
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4124548851032434}
+  - component: {fileID: 131473563039672250}
+  m_Layer: 0
+  m_Name: leftPunch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124548851032434
+Transform:
+  m_GameObject: {fileID: 1404604732203730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4978053219899287}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131473563039672250
+GUITexture:
+  m_GameObject: {fileID: 1404604732203730}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: cc3a825451c3d9d4982fa6edbe8f37b1, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 820.9728
+    y: 106.3687
+    width: 100
+    height: 100
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &1097824860423090
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4349648853261609}
+  - component: {fileID: 131791281849183312}
+  m_Layer: 0
+  m_Name: Pause
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4349648853261609
+Transform:
+  m_GameObject: {fileID: 1097824860423090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4978053219899287}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131791281849183312
+GUITexture:
+  m_GameObject: {fileID: 1097824860423090}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: b7ee166420d53cd478583dd52a4d7563, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 441.1657
+    width: 100
+    height: 100
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &1192418993620187
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4851493502752733}
+  - component: {fileID: 131069883407026342}
+  m_Layer: 0
+  m_Name: leftKick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851493502752733
+Transform:
+  m_GameObject: {fileID: 1192418993620187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4978053219899287}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131069883407026342
+GUITexture:
+  m_GameObject: {fileID: 1192418993620187}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 1082b321de3c7ad4f94d3192bdde2a4f, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 844.0272
+    y: 12.96437
+    width: 100
+    height: 100
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &1765218554861576
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4586105605249917}
+  - component: {fileID: 131472070094960159}
+  m_Layer: 0
+  m_Name: rightPunch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4586105605249917
+Transform:
+  m_GameObject: {fileID: 1765218554861576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4978053219899287}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131472070094960159
+GUITexture:
+  m_GameObject: {fileID: 1765218554861576}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: f582fe59c65ba434cad40e79dae2253a, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 952.9721
+    y: 110.1742
+    width: 100
+    height: 100
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &1111896780108871
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4644589163833791}
+  - component: {fileID: 131807251207956219}
+  m_Layer: 0
+  m_Name: rightKick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4644589163833791
+Transform:
+  m_GameObject: {fileID: 1111896780108871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4978053219899287}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131807251207956219
+GUITexture:
+  m_GameObject: {fileID: 1111896780108871}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 2d30c08dbbb0c2643b08954bce2b3f42, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 940
+    y: 12.96437
+    width: 100
+    height: 100
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &1991732008775162
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4643248766491308}
+  - component: {fileID: 131264051886255032}
+  m_Layer: 0
+  m_Name: block
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4643248766491308
+Transform:
+  m_GameObject: {fileID: 1991732008775162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4978053219899287}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!131 &131264051886255032
+GUITexture:
+  m_GameObject: {fileID: 1991732008775162}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 0cdc7d9f5725ec74c880b85bc2e4bbb0, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 887.588
+    y: 181.4592
+    width: 100
+    height: 100
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0

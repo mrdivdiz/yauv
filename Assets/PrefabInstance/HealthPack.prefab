@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1737014279295317}
+  m_IsPrefabParent: 1
+--- !u!1 &1737014279295317
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4446095790110081}
+  - component: {fileID: 111413541710956236}
+  - component: {fileID: 54129977522321606}
+  - component: {fileID: 65936724135798746}
+  m_Layer: 2
+  m_Name: HealthPack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4446095790110081
+Transform:
+  m_GameObject: {fileID: 1737014279295317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.19241, y: 3.259656, z: -71.33888}
+  m_LocalScale: {x: 0.2290125, y: 0.2290128, z: 0.2290128}
+  m_Children:
+  - {fileID: 4843736130161776}
+  - {fileID: 4774586369421945}
+  - {fileID: 4695862919024449}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111413541710956236
+Animation:
+  m_GameObject: {fileID: 1737014279295317}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!54 &54129977522321606
+Rigidbody:
+  m_GameObject: {fileID: 1737014279295317}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 2
+  m_AngularDrag: 2
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65936724135798746
+BoxCollider:
+  m_GameObject: {fileID: 1737014279295317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.44, y: 1.15, z: 1.21}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1734827874033801
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843736130161776}
+  - component: {fileID: 33358621754597149}
+  - component: {fileID: 23594403720235693}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843736130161776
+Transform:
+  m_GameObject: {fileID: 1734827874033801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2468254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4446095790110081}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33358621754597149
+MeshFilter:
+  m_GameObject: {fileID: 1734827874033801}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &23594403720235693
+MeshRenderer:
+  m_GameObject: {fileID: 1734827874033801}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1369795758686653
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4774586369421945}
+  - component: {fileID: 33951263796826494}
+  - component: {fileID: 23446469094610637}
+  - component: {fileID: 111118489886629537}
+  m_Layer: 0
+  m_Name: HealthPack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4774586369421945
+Transform:
+  m_GameObject: {fileID: 1369795758686653}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.02358653, y: -0.5354915, z: 0.05869975}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_Children: []
+  m_Father: {fileID: 4446095790110081}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33951263796826494
+MeshFilter:
+  m_GameObject: {fileID: 1369795758686653}
+  m_Mesh: {fileID: 4300000, guid: 941e6e22544192847b0b9726f8814319, type: 2}
+--- !u!23 &23446469094610637
+MeshRenderer:
+  m_GameObject: {fileID: 1369795758686653}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c2d7ad2131fee6648b9864f68a6c4a1f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111118489886629537
+Animation:
+  m_GameObject: {fileID: 1369795758686653}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1328160528383529
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4695862919024449}
+  - component: {fileID: 65631526007441056}
+  - component: {fileID: 114827230150636533}
+  m_Layer: 2
+  m_Name: Pickupable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4695862919024449
+Transform:
+  m_GameObject: {fileID: 1328160528383529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4446095790110081}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65631526007441056
+BoxCollider:
+  m_GameObject: {fileID: 1328160528383529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114827230150636533
+MonoBehaviour:
+  m_GameObject: {fileID: 1328160528383529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c8d1f4bd104c4b9efbc3afecc0f55, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pickupableType: 1
+  pickupableName: HealthPack
+  inside: 0
+  PickSound: {fileID: 0}
+  GenericSound: {fileID: 0}
+  spawnGroupID:
+  enterStealthMode: 0
+  pickupedObject: {fileID: 0}
+  startingPoint: {fileID: 0}
+  containingObject: {fileID: 0}
+  treasureID: -1
+  treasureObject: {fileID: 0}
+  treasureSound: {fileID: 0}
+  kickableObject: {fileID: 0}
+  spawner: {fileID: 0}
+  currentBullets: -1
+  currentRounds: -1

@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1975181332342919}
+  m_IsPrefabParent: 1
+--- !u!1 &1975181332342919
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4535319474812486}
+  - component: {fileID: 114438706400478050}
+  - component: {fileID: 82221637048090559}
+  m_Layer: 8
+  m_Name: Grenade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4535319474812486
+Transform:
+  m_GameObject: {fileID: 1975181332342919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114438706400478050
+MonoBehaviour:
+  m_GameObject: {fileID: 1975181332342919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008cd3be94bd41c458221f5f2f06dec8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  gunName: Grenade
+  WeaponType: 0
+  bulletMark: {fileID: 0}
+  projectilePrefab: {fileID: 1336628523015725, guid: 5b07ff78645ecbf439084a42f5393f2f, type: 2}
+  projectileDummyPrefab: {fileID: 0}
+  pickablePrefab: {fileID: 0}
+  weaponTransformReference: {fileID: 0}
+  weaponTransform: {fileID: 0}
+  hitLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  woodParticle: {fileID: 0}
+  metalParticle: {fileID: 0}
+  concreteParticle: {fileID: 0}
+  sandParticle: {fileID: 0}
+  waterParticle: {fileID: 0}
+  blodParticle: {fileID: 0}
+  glassParticle: {fileID: 0}
+  fireFreeAnimation: {fileID: 0}
+  fireAimedAnimation: {fileID: 0}
+  reloadAnimation: {fileID: 7400000, guid: 226d780e956bcae4183d07bfd7fbadee, type: 2}
+  drawAnimation: {fileID: 7400000, guid: eaffc5b7f4bf4474faefaccea118ac94, type: 2}
+  holsterAnimation: {fileID: 7400000, guid: fd54cd54e30e28549aff772eb26e9b77, type: 2}
+  idleFreeAnimation: {fileID: 0}
+  idleAimedAnimation: {fileID: 0}
+  pocketOffsetPosition: {x: 0, y: 0, z: 0}
+  pocketOffsetRotation: {x: 0, y: 0, z: 0}
+  rightHandOffsetPosition: {x: 0, y: 0, z: 0}
+  rightHandOffsetRotation: {x: 0, y: 0, z: 0}
+  accuricyRadius: 0
+  fireRate: 2
+  useGravity: 1
+  fireMode: 0
+  burstRate: 3
+  fireRange: 50
+  projectileSpeed: 20
+  clipSize: 5
+  totalBullets: 0
+  totalClips: 20
+  reloadTime: 2.6
+  autoReload: 1
+  currentRounds: 0
+  crosshairWhite: {fileID: 0}
+  crosshairRed: {fileID: 0}
+  shootVolume: 0.4
+  shootSounds:
+  - {fileID: 8300000, guid: 822d6c010033c294097d71d9cab1c282, type: 3}
+  reloadSound: {fileID: 8300000, guid: 64c9c3b7b7e67b94eb15932b6b775d3b, type: 3}
+  outOfAmmoSound: {fileID: 8300000, guid: 5a3bfa3e306174048892a802dfa0145a, type: 3}
+  freeToShoot: 0
+  reloading: 0
+  drawing: 0
+  lastShootTime: 0
+  fire: 0
+  hitParticles: {fileID: 0}
+  shotingEmitter: {fileID: 0}
+  capsuleEmitter: []
+  shotLight: {fileID: 0}
+  unlimited: 1
+  pushPower: 0
+  damageAmount: 25
+  weaponHolder: {fileID: 0}
+  soldierCamera: {fileID: 0}
+  leftHand: {fileID: 0}
+  hitPosition: {x: 0, y: 0, z: 0}
+  bulletsSaved: 0
+  aiAccuracy: 0.35
+  scaleFactor: 1
+  recoil: 0.2
+--- !u!82 &82221637048090559
+AudioSource:
+  m_GameObject: {fileID: 1975181332342919}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 4
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

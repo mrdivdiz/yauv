@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1990382453158884}
+  m_IsPrefabParent: 1
+--- !u!1 &1990382453158884
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4898451427416179}
+  - component: {fileID: 33091897542548798}
+  - component: {fileID: 23498270764934315}
+  - component: {fileID: 136277974710740621}
+  m_Layer: 0
+  m_Name: Kapok2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4898451427416179
+Transform:
+  m_GameObject: {fileID: 1990382453158884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 314.0143, y: 64.52417, z: 47.0372}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33091897542548798
+MeshFilter:
+  m_GameObject: {fileID: 1990382453158884}
+  m_Mesh: {fileID: 4300000, guid: 6b9f0eef9a1813d4b9425c5ecf5c03be, type: 2}
+--- !u!23 &23498270764934315
+MeshRenderer:
+  m_GameObject: {fileID: 1990382453158884}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 66cc831d20d5a8747a55d40e36235f4a, type: 2}
+  - {fileID: 2100000, guid: caf1665e33e27194ea03b908500f4a46, type: 2}
+  - {fileID: 2100000, guid: 11b8f72bb85806441991152cf7e6998b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &136277974710740621
+CapsuleCollider:
+  m_GameObject: {fileID: 1990382453158884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 4.99
+  m_Height: 11.58
+  m_Direction: 1
+  m_Center: {x: 0.01436615, y: 3.73, z: -0.233367}
