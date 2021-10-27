@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: f38a12df64a117847bc41b78c0ba4f3a
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.446579, g: 0.4964133, b: 0.5748178, a: 1}
+--- !u!157 &4
+LightmapSettings:
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_UseShadowmask: 1
+--- !u!196 &5
+NavMeshSettings:
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.1666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &6
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 8}
+  - component: {fileID: 10}
+  - component: {fileID: 13}
+  - component: {fileID: 14}
+  - component: {fileID: 17}
+  - component: {fileID: 18}
+  - component: {fileID: 19}
+  - component: {fileID: 20}
+  - component: {fileID: 21}
+  - component: {fileID: 12}
+  - component: {fileID: 11}
+  - component: {fileID: 16}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 9}
+  - component: {fileID: 15}
+  m_Layer: 0
+  m_Name: frame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8
+Transform:
+  m_GameObject: {fileID: 6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &9
+Transform:
+  m_GameObject: {fileID: 7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: -4.8}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &10
+Camera:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.01960784}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.0001
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 0.7630262
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 0
+  m_StereoSeparation: 0
+--- !u!81 &11
+AudioListener:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+--- !u!82 &12
+AudioSource:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!92 &13
+GUILayer:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+--- !u!124 &14
+FlareLayer:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+--- !u!131 &15
+GUITexture:
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 1310dbd66e227164dba19308f4a5e16d, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fb6c27bf361524d9fcaff9a160d1d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  musicClips:
+  - {fileID: 8300000, guid: c330c216bbfc42a47a36fcbeea27cfdc, type: 3}
+  - {fileID: 8300000, guid: ad7be58558381294db52f7121c800b3c, type: 3}
+  - {fileID: 8300000, guid: 6106ef4ce9f3a4640a24189ce6d2249f, type: 3}
+  - {fileID: 8300000, guid: 9bff50a30111b9e48a3833d771df6d4c, type: 3}
+--- !u!114 &17
+MonoBehaviour:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3382d66f249e0d045979694cdab741e2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  delayStart: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d965d3c9e511a488e256806a2acfbd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mode: 3
+  showGeneratedNormals: 0
+  offsetScale: 0.2
+  blurRadius: 18
+  edgeThresholdMin: 0.05
+  edgeThreshold: 0.2
+  edgeSharpness: 4
+  dlaaSharp: 0
+  ssaaShader: {fileID: 4800000, guid: 21927e7d26e5bb14cae84c07b062e8df, type: 3}
+  dlaaShader: {fileID: 4800000, guid: 6f8fefefa1029fd43a4cc8d077817679, type: 3}
+  nfaaShader: {fileID: 4800000, guid: 9fb6b9b896b86874ca01cd5b27416f1b, type: 3}
+  shaderFXAAPreset2: {fileID: 4800000, guid: 913e0e88fa80e144d985de8c936c9195, type: 3}
+  shaderFXAAPreset3: {fileID: 4800000, guid: 68a91ae7f721ad349be5bf21939b1028, type: 3}
+  shaderFXAAII: {fileID: 4800000, guid: 91c15c7f96330cb4980d9496a431c818, type: 3}
+  shaderFXAAIII: {fileID: 4800000, guid: f23171e4532d4144bbddf4177935a398, type: 3}
+--- !u!114 &19
+MonoBehaviour:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b977c3b153326b845bd8375cc9341601, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leaderboards:
+  - boardID: All Levels
+    boardTitle: M_All_Levels
+    screenshot: {fileID: 2800000, guid: d2b398b1596614b4d999e41934432b35, type: 3}
+  - boardID: The Office
+    boardTitle: Survival_Prologue
+    screenshot: {fileID: 2800000, guid: 0c749eb3e16d76341a80edd2bc1db693, type: 3}
+  - boardID: Ahmose Tomb
+    boardTitle: Survival_Temple
+    screenshot: {fileID: 2800000, guid: 88b6f3edcd4e93c41a68242a176a27a8, type: 3}
+  - boardID: Tangier Cafe
+    boardTitle: Survival_TangierCafe
+    screenshot: {fileID: 2800000, guid: e43a8ec37330914439ccd07fe0e41899, type: 3}
+  - boardID: The Dark Jungle
+    boardTitle: Survival_NightJungle
+    screenshot: {fileID: 2800000, guid: 98d96521eb526aa4d9be49bcdb4bdf7a, type: 3}
+  - boardID: Tangier Market
+    boardTitle: Survival_TangierMarket
+    screenshot: {fileID: 2800000, guid: 5da8ab92abbe18442b069c1de8309bab, type: 3}
+  - boardID: The Desert
+    boardTitle: Survival_Desert
+    screenshot: {fileID: 2800000, guid: ded71fa897a1c0a4d85f30b45d794875, type: 3}
+  - boardID: Tangier Night
+    boardTitle: Survival_TangierCity
+    screenshot: {fileID: 2800000, guid: 149f1a169ebcdf545a5a6862ca4de4d8, type: 3}
+  largestFont: {fileID: 12800000, guid: e8ca4ac6ff8aa3e4fa3875bd6cdfaf75, type: 2}
+  friendsFilter: {fileID: 2800000, guid: daaee7d9ee4e2e64fa923d2a3b19c2fe, type: 3}
+  showProfile: {fileID: 2800000, guid: d72ec6b13326ef04aa46a8df86176e0c, type: 3}
+  backButton: {fileID: 2800000, guid: a0fe563e0804be342927592d1112c8d3, type: 3}
+  changeRecords: {fileID: 2800000, guid: cbb5ae80fd2bc84438a7ea17609332e6, type: 3}
+  changePage: {fileID: 2800000, guid: 34a1926a1699294498c7add259faa161, type: 3}
+  friendsFilterPC: {fileID: 2800000, guid: 927eee686654f3f42a26407835fbc68f, type: 3}
+  showProfilePC: {fileID: 2800000, guid: 0a37cad3b83068042a949a09b36481d2, type: 3}
+  backButtonPC: {fileID: 2800000, guid: cd17de1f7febb1a4ab0bef2c5b79d474, type: 3}
+  changeRecordsPC: {fileID: 2800000, guid: cbb5ae80fd2bc84438a7ea17609332e6, type: 3}
+  changePagePC: {fileID: 2800000, guid: 34a1926a1699294498c7add259faa161, type: 3}
+  hoverSound: {fileID: 8300000, guid: 7e323eeea75264e4cac7dca03fd26704, type: 3}
+  leftArrow: {fileID: 2800000, guid: 5bcec60d87aeef44ab95c5b9d043f76a, type: 3}
+  rightArrow: {fileID: 2800000, guid: d6e9d7f3fd58add41933fc606269e25d, type: 3}
+--- !u!114 &20
+MonoBehaviour:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4d1a9f17d67d147a7a1691c8bb83bf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &21
+MonoBehaviour:
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3382d66f249e0d045979694cdab741e2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  delayStart: 0
