@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: moroccan_body_col_Gallery
+  m_Shader: {fileID: 10751, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 2d558b0b0889ea04a96f888031ea5917, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: f22d1a60cf034f145a6f0b73aa3a5772, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 3c11ca30ebca7c540b0c1ff6c9a17724, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 57f21bd1f67998746a842b770afed5f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TMAP:
+        m_Texture: {fileID: 2800000, guid: d057a66099b9cf645a3a4a2056cdf457, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOST: 1
+    - _Cutoff: 0.5
+    - _Dist: 1
+    - _Fresnel: 1
+    - _PP: 1
+    - _Shininess: 0.5406033
+    - _TMUL: 0.2
+    - _TPOW: 0.7
+    m_Colors:
+    - _Color: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 0.509804}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _SSSC: {r: 0.1176471, g: 0.09307541, b: 0.08073818, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}

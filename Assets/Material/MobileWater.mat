@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MobileWater
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailTex:
+        m_Texture: {fileID: 2800000, guid: f21bdfecb3a414e43b8df75fed9c8cd2, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 19fb9a57edc8daf4f975c2ec2f722e7c, type: 3}
+        m_Scale: {x: 0.8, y: 0.8}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5070403
+    - _DiffuseDistortion: 0.15
+    - _DiffuseMultiply: 0.3648532
+    - _FadeDist: 0.75
+    - _Falloff: 1.6592
+    - _FalloffPower: 0
+    - _Glossiness: 2.581182
+    - _LitValue: 1
+    - _MMultiplier: 0.35
+    - _Refraction: 100
+    - _RimPower: 4.30597
+    - _Scroll2X: 0.005
+    - _Scroll2Y: -0.013
+    - _ScrollSpeed: 0.1
+    - _ScrollX: 0.007
+    - _ScrollY: 0.01
+    - _Shininess: 1
+    - _SineAmplX: 0.001
+    - _SineAmplX2: 0.001
+    - _SineAmplY: 0.001
+    - _SineAmplY2: 0.001
+    - _SineFreqX: 1
+    - _SineFreqX2: 2
+    - _SineFreqY: 2
+    - _SineFreqY2: 1
+    - _SpecPower: 4
+    - _UnlitValue: 0.5892007
+    - _node31: 1
+    - _node32: 1
+    - _node33: 0.8396227
+    - _node34: 1.226415
+    - _node35: 3.00283
+    - _node44: 1.179245
+    - _node45: 0.1320755
+    m_Colors:
+    - _Color: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 0.3960784}
+    - _DiffuseColor: {r: 0.4939531, g: 0.6188897, b: 0.8286713, a: 1}
+    - _RimColor: {r: 1, g: 0.3008356, b: 0, a: 0}
+    - _ScrollSpeed: {r: -0.01, g: -0.02, b: 0.0075, a: 0.004}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UVScale: {r: 0.5, g: 0.5, b: 0.25, a: 0.25}

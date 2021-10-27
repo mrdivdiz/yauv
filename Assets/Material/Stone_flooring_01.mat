@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Stone_flooring_01
+  m_Shader: {fileID: 4800000, guid: 6bea68e1acc2f104c9aae3a947321578, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 0
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5971c7f998d8efc49bd1d8947e871dbb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 64ca918bab2a7d74dbe9886967c08624, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Reflection: 0.522388
+    - _Shininess: 3.000001
+    - _Gloss: 0.1415094
+    - _FrezPow: 0
+    - _FrezFalloff: 7.396226
+    - _EdgeAlpha: 0
+    - _Metalics: 1
+    m_Colors:
+    - _Color: {r: 0.6862745, g: 0.6415949, b: 0.5786236, a: 0}
+    - _SpecColor: {r: 0.1960784, g: 0.1960784, b: 0.1960784, a: 1}
+    - _ReflectColor: {r: 0.172549, g: 0.172549, b: 0.172549, a: 0.5019608}

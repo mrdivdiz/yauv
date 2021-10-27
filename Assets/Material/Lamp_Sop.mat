@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Lamp_Sop
+  m_Shader: {fileID: 23, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords:
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 0
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6d73a5fbc5723834c9b8d7a67306379c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 6f7015d339db1a643b6c2fc9c43450d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 876870e748f5a6448a0d186387244811, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Reflection: 0.1320755
+    - _Shininess: 0.06641509
+    - _Gloss: 0.2924528
+    - _FrezPow: 811.4717
+    - _FrezFalloff: 0.2264151
+    - _EdgeAlpha: 0.5283019
+    - _Metalics: 0
+    m_Colors:
+    - _Color: {r: 0.5820895, g: 0.5820895, b: 0.5820895, a: 1}
+    - _SpecColor: {r: 0.8134328, g: 0.8134328, b: 0.8134328, a: 1}
+    - _ReflectColor: {r: 0.7686567, g: 0.6743096, b: 0.5277345, a: 0.5019608}

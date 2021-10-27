@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Daylight Simple Water
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 69a9295f4a5c1eb4a9c4ce29bb31b888, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorControl:
+        m_Texture: {fileID: 2800000, guid: d56fa71bbf6f4ce4e9ff5e57318a7e5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorControlCube:
+        m_Texture: {fileID: 8900000, guid: eab82b6bc18d18a41a21f8da0f47e6da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 19fb9a57edc8daf4f975c2ec2f722e7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpPeturb: 82.07547
+    - _BumpPeturb2: 0.745283
+    - _Highlight: 33.20755
+    - _Shininess: 1
+    - _WaveScale: 0.06252182
+    - _bScale: 0.07
+    - _bTwirl: 0.05
+    - _distort: 0.1
+    m_Colors:
+    - BumpParm: {r: 1, g: 1, b: 1, a: 1}
+    - WaveSpeed: {r: 2, g: 2, b: -8, a: -3.5}
+    - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorControlCube_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _ColorControl_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _EdgeColor: {r: 0, g: 0.1, b: 0, a: 0.1}
+    - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _RefTex_0: {r: -1517.37, g: -23.94085, b: -3154.917, a: 2715.942}
+    - _RefTex_1: {r: 356.5844, g: -313.1257, b: -962.8491, a: 2791.507}
+    - _RefTex_2: {r: 4.95645, g: -0.1870566, b: -13.38341, a: 20.12336}
+    - _RefTex_3: {r: 4.955955, g: -0.1870379, b: -13.38207, a: 20.22135}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 0.4}
+    - _WaveSpeed: {r: 1, g: -1, b: -1, a: 1}
+    - _horizonColor: {r: 0.7686567, g: 0.7686567, b: 0.7686567, a: 0}
+    - horizonColor: {r: 0.615, g: 0.796, b: 0.876, a: 1}
+    - uvParams: {r: 10, g: 0.02, b: 0.03, a: 0}
+    - waveDirX: {r: -2.5, g: 0, b: 7, a: 8}
+    - waveDirY: {r: 0, g: 1.5, b: -7, a: 1}
+    - waveHeights: {r: 0.8, g: 1, b: 0.1, a: 0.05}

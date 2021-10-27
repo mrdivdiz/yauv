@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: sal_ent_cols
+  m_Shader: {fileID: 22, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords:
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 0
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bb859a6f5ab35164a8bc0f3774d2d5c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Reflection: 0.2014925
+    - _Shininess: 0.2504478
+    - _Gloss: 0.5
+    - _FrezPow: 802.3881
+    - _FrezFalloff: 4
+    - _EdgeAlpha: 0
+    - _Metalics: 0.5
+    m_Colors:
+    - _Color: {r: 0.2509804, g: 0.2428104, b: 0.2312957, a: 0}
+    - _SpecColor: {r: 0.3880597, g: 0.3880597, b: 0.3880597, a: 1}
+    - _ReflectColor: {r: 0.172549, g: 0.172549, b: 0.172549, a: 0.5019608}

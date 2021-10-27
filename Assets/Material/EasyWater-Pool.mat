@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EasyWater-Pool
+  m_Shader: {fileID: 22, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap1:
+        m_Texture: {fileID: 2800000, guid: afe9c86adaf43134d96c266108fcfdb5, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap2:
+        m_Texture: {fileID: 2800000, guid: d26d1c91db872804daa1af897a56218f, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 939af988686d55c42b148e9b32b7f30e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 2800000, guid: 9ec2254ce1a04b048a415f772c0496c1, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f21bdfecb3a414e43b8df75fed9c8cd2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 2800000, guid: 327b1a086fc96b644b3fefd22bf09805, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 49ccd0458cf2feb4e875a16508ac4352, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 1, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: 5990d434ba39f5a479dcf309f6df8b26, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Add: 4.807693
+    - _Angulo: 3.423077
+    - _Bump1Speed: 0.1
+    - _Bump2Speed: -0.1
+    - _BumpForce: 0.3653846
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortPower: 0.003076923
+    - _DistortSpeed: 0.01730769
+    - _DistortionPower: 0.01576923
+    - _DistortionSpeed: 0.5
+    - _DstBlend: 0
+    - _EdgeAlpha: 0
+    - _FrezFalloff: 4
+    - _FrezPow: 0.25
+    - _Gloss: 1.542308
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MainTexSpeed: 0.1
+    - _Metalics: 0.5
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Opacidade: 0.4134615
+    - _Opacity: -0.05223882
+    - _OverallOpacity: 0.2884615
+    - _Parallax: 0.02
+    - _Range: 5
+    - _RangeX: 0.5
+    - _RangeZ: 10
+    - _Rangew: 1
+    - _ReflFresnel: 0.1153846
+    - _ReflUV: 1.269231
+    - _ReflUVadd: 0
+    - _ReflectPower: 0.4807692
+    - _Reflection: 0.1826923
+    - _Shininess: 0.498
+    - _SmoothnessTextureChannel: 0
+    - _Specular: 0.3134328
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Teste2: 0
+    - _Teste3: 0
+    - _Texture2Speed: -0.1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _teste: 0.1
+    - _testeRefl: 0.1923077
+    - _testeW: -0.07692306
+    - _testeX: 0.03692308
+    - _testeY: 0.01846154
+    - _testeZ: 0.1923077
+    - _testeadd: 5
+    m_Colors:
+    - _Add: {r: 1, g: 1, b: 0, a: 0}
+    - _Animations: {r: 0.1, g: -0.01, b: 0.01, a: -0.005}
+    - _Color: {r: 0, g: 0.3615283, b: 0.5808823, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Mult: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Speeds: {r: 0, g: 0, b: 0, a: 0}
+    - _Sub: {r: 1, g: 90, b: 1, a: 1}
+    - _Teste: {r: 1.07, g: 1.1, b: -0.52, a: -0.15}
+    - _TextureSpeed: {r: 0.05, g: -0.01, b: 0.01, a: -0.003}
+    - _teste: {r: -1, g: -1, b: -1, a: -5}

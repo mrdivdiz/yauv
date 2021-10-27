@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: electric_box
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords:
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 0
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: addc9940476ba2e4d87a28fc63590388, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlashTex:
+        m_Texture: {fileID: 2800000, guid: 2191e7db09483284ebea7a0c9a5761af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Shininess: 0.2955769
+    - _Scale: 1.328846
+    - _Intensity: 3
+    - _Offset: 0
+    - _Wrapping: 1.576923
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0.4705882}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 0.4705882}
+    - _FlashColor: {r: 1, g: 0.07462686, b: 0.07462686, a: 0}

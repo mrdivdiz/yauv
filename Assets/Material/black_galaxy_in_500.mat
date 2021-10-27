@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: black_galaxy_in_500
+  m_Shader: {fileID: 23, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords:
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 0
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 187b2d3663562dd439e13e18b8f4f3e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.01}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 46d38fbefd349a8479fe09053678c84b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.01}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 0955dfc6e61a3e44c83cb9a928dc9bb7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Reflection: 0.2307692
+    - _Shininess: 0.1812228
+    - _Gloss: 0.3269231
+    - _FrezPow: 0.3846154
+    - _FrezFalloff: 5.384615
+    - _EdgeAlpha: 0.2307692
+    - _Metalics: 0.3269231
+    - _MainTexSpeed: 0
+    - _DistortionSpeed: 0
+    - _DistortionPower: 0
+    - _Specular: 1
+    - _ReflectPower: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.2745098, g: 0.2745098, b: 0.2745098, a: 1}
+    - _ReflectColor: {r: 0.1176471, g: 0.1176471, b: 0.1176471, a: 0.2235294}
