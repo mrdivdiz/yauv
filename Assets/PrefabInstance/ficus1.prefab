@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1017179781464996}
+  m_IsPrefabParent: 1
+--- !u!1 &1017179781464996
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4207891624244408}
+  - component: {fileID: 33515437325791349}
+  - component: {fileID: 23086364699534069}
+  - component: {fileID: 136286037032118147}
+  m_Layer: 0
+  m_Name: ficus1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4207891624244408
+Transform:
+  m_GameObject: {fileID: 1017179781464996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 288.9456, y: 35.35726, z: 22.08889}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33515437325791349
+MeshFilter:
+  m_GameObject: {fileID: 1017179781464996}
+  m_Mesh: {fileID: 4300000, guid: d6ff987ba0f376b499bddaf9193b1862, type: 2}
+--- !u!23 &23086364699534069
+MeshRenderer:
+  m_GameObject: {fileID: 1017179781464996}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ec988e0b97b080a4bacf0b335ef36442, type: 2}
+  - {fileID: 2100000, guid: a349dcd03a7a49d42a5b7c743cd3d0e7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &136286037032118147
+CapsuleCollider:
+  m_GameObject: {fileID: 1017179781464996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.1
+  m_Height: 6.061956
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.118511, z: -0.11}
