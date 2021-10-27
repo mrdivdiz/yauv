@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1155227009856594}
+  m_IsPrefabParent: 1
+--- !u!1 &1155227009856594
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4348203209078790}
+  - component: {fileID: 114365727350792054}
+  - component: {fileID: 114522957872421003}
+  m_Layer: 0
+  m_Name: BasicExplosion 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4348203209078790
+Transform:
+  m_GameObject: {fileID: 1155227009856594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 738.9428, y: -2.55947, z: 950.8961}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_Children:
+  - {fileID: 4250713067650069}
+  - {fileID: 4943793143993359}
+  - {fileID: 4200193693601810}
+  - {fileID: 4701912092577105}
+  - {fileID: 4480905028180326}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114365727350792054
+MonoBehaviour:
+  m_GameObject: {fileID: 1155227009856594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b0ec6a67393f54d994ebb32939336b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  bits: {fileID: 54156058710959131, guid: d08649a5b2586b04e98b5535dae82b6c, type: 2}
+  vel: 200
+  up: 50
+  amount: 10
+  amountRandom: 5
+  useUp: 0
+--- !u!114 &114522957872421003
+MonoBehaviour:
+  m_GameObject: {fileID: 1155227009856594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2d0fd8cd1bed14396754f10fce5d37, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  particleEmitters:
+  - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  scale: 0.2
+  minsize:
+  - 20
+  - 200
+  - 18
+  - 2
+  - 0.4
+  maxsize:
+  - 30
+  - 240
+  - 22
+  - 8
+  - 2
+  worldvelocity:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  localvelocity:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 20, z: 0}
+  rndvelocity:
+  - {x: 80, y: 80, z: 80}
+  - {x: 0, y: 0, z: 0}
+  - {x: 70, y: 70, z: 70}
+  - {x: 800, y: 800, z: 800}
+  - {x: 400, y: 400, z: 400}
+  scaleBackUp:
+  - {x: 2, y: 2, z: 2}
+  - {x: 2, y: 2, z: 2}
+  - {x: 2, y: 2, z: 2}
+  - {x: 2, y: 2, z: 2}
+  - {x: 2, y: 2, z: 2}
+  firstUpdate: 0
+--- !u!1 &1293451534547479
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250713067650069}
+  m_Layer: 0
+  m_Name: Glow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4250713067650069
+Transform:
+  m_GameObject: {fileID: 1293451534547479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 4348203209078790}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1210692181431628
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4943793143993359}
+  m_Layer: 0
+  m_Name: Smoke
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4943793143993359
+Transform:
+  m_GameObject: {fileID: 1210692181431628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 4348203209078790}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1821265230622838
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4200193693601810}
+  m_Layer: 0
+  m_Name: SparkBig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4200193693601810
+Transform:
+  m_GameObject: {fileID: 1821265230622838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 4348203209078790}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1144077518517639
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4701912092577105}
+  m_Layer: 0
+  m_Name: Fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4701912092577105
+Transform:
+  m_GameObject: {fileID: 1144077518517639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 4348203209078790}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1273513313946551
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4480905028180326}
+  m_Layer: 0
+  m_Name: Sparks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4480905028180326
+Transform:
+  m_GameObject: {fileID: 1273513313946551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 4348203209078790}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
