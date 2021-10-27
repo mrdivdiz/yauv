@@ -1,0 +1,20 @@
+﻿using System;
+
+// Token: 0x020001F6 RID: 502
+public enum HitType
+{
+	// Token: 0x04000F31 RID: 3889
+	CONCRETE,
+	// Token: 0x04000F32 RID: 3890
+	WOOD,
+	// Token: 0x04000F33 RID: 3891
+	METAL,
+	// Token: 0x04000F34 RID: 3892
+	OLD_METAL,
+	// Token: 0x04000F35 RID: 3893
+	GLASS,
+	// Token: 0x04000F36 RID: 3894
+	GENERIC,
+	// Token: 0x04000F37 RID: 3895
+	BLOD
+}
