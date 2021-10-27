@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1222995547818053}
+  m_IsPrefabParent: 1
+--- !u!1 &1222995547818053
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4787802667394851}
+  - component: {fileID: 111113720412868237}
+  - component: {fileID: 54760484088723309}
+  - component: {fileID: 65122847691798664}
+  m_Layer: 2
+  m_Name: PickableAK47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4787802667394851
+Transform:
+  m_GameObject: {fileID: 1222995547818053}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -35.47846, y: 2.563403, z: -69.3867}
+  m_LocalScale: {x: 0.2290125, y: 0.2290128, z: 0.2290128}
+  m_Children:
+  - {fileID: 4719393757642100}
+  - {fileID: 4432856864713075}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!111 &111113720412868237
+Animation:
+  m_GameObject: {fileID: 1222995547818053}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!54 &54760484088723309
+Rigidbody:
+  m_GameObject: {fileID: 1222995547818053}
+  serializedVersion: 2
+  m_Mass: 5
+  m_Drag: 2
+  m_AngularDrag: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65122847691798664
+BoxCollider:
+  m_GameObject: {fileID: 1222995547818053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5697987, y: 2.001975, z: 3.822165}
+  m_Center: {x: 0, y: -0.04906204, z: 0.4698004}
+--- !u!1 &1833542173894792
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4719393757642100}
+  - component: {fileID: 111996391212187752}
+  m_Layer: 2
+  m_Name: AK47_HI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719393757642100
+Transform:
+  m_GameObject: {fileID: 1833542173894792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 11.54213, y: 11.54213, z: 11.54214}
+  m_Children:
+  - {fileID: 4806734944983294}
+  - {fileID: 4175559233203249}
+  m_Father: {fileID: 4787802667394851}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111996391212187752
+Animation:
+  m_GameObject: {fileID: 1833542173894792}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1507334681621613
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4806734944983294}
+  - component: {fileID: 33633197589493158}
+  - component: {fileID: 23691054584668539}
+  - component: {fileID: 114681149113618412}
+  m_Layer: 2
+  m_Name: HI_AK47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4806734944983294
+Transform:
+  m_GameObject: {fileID: 1507334681621613}
+  m_LocalRotation: {x: 1.110223E-16, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4719393757642100}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.272222E-14, y: 0, z: 0}
+--- !u!33 &33633197589493158
+MeshFilter:
+  m_GameObject: {fileID: 1507334681621613}
+  m_Mesh: {fileID: 4300000, guid: d91462971c852e84685051c94bb56545, type: 2}
+--- !u!23 &23691054584668539
+MeshRenderer:
+  m_GameObject: {fileID: 1507334681621613}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3c9419d97ffe4ac4d94fea04f98ad09b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114681149113618412
+MonoBehaviour:
+  m_GameObject: {fileID: 1507334681621613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfd610510fccdd4f9de7db35653cc41, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  renderer: {fileID: 23691054584668539}
+  offsetCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1386512094306773
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4175559233203249}
+  - component: {fileID: 33692307245336386}
+  - component: {fileID: 23533117814512714}
+  - component: {fileID: 114229611032827267}
+  m_Layer: 2
+  m_Name: HI_AK47_mag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4175559233203249
+Transform:
+  m_GameObject: {fileID: 1386512094306773}
+  m_LocalRotation: {x: 1.110223E-16, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4719393757642100}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 1.272222E-14, y: 0, z: 0}
+--- !u!33 &33692307245336386
+MeshFilter:
+  m_GameObject: {fileID: 1386512094306773}
+  m_Mesh: {fileID: 4300000, guid: bf0645c4ba7dbef4f907a3e6bdff4e18, type: 2}
+--- !u!23 &23533117814512714
+MeshRenderer:
+  m_GameObject: {fileID: 1386512094306773}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3c9419d97ffe4ac4d94fea04f98ad09b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114229611032827267
+MonoBehaviour:
+  m_GameObject: {fileID: 1386512094306773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfd610510fccdd4f9de7db35653cc41, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  renderer: {fileID: 23533117814512714}
+  offsetCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1922496992857439
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4432856864713075}
+  - component: {fileID: 65350849193554494}
+  - component: {fileID: 114850633960327893}
+  m_Layer: 2
+  m_Name: Pickupable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4432856864713075
+Transform:
+  m_GameObject: {fileID: 1922496992857439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4787802667394851}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65350849193554494
+BoxCollider:
+  m_GameObject: {fileID: 1922496992857439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114850633960327893
+MonoBehaviour:
+  m_GameObject: {fileID: 1922496992857439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c8d1f4bd104c4b9efbc3afecc0f55, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pickupableType: 0
+  pickupableName: AK47
+  inside: 0
+  PickSound: {fileID: 0}
+  GenericSound: {fileID: 0}
+  spawnGroupID:
+  enterStealthMode: 0
+  pickupedObject: {fileID: 0}
+  startingPoint: {fileID: 0}
+  containingObject: {fileID: 0}
+  treasureID: -1
+  treasureObject: {fileID: 0}
+  treasureSound: {fileID: 0}
+  kickableObject: {fileID: 0}
+  spawner: {fileID: 0}
+  currentBullets: -1
+  currentRounds: -1

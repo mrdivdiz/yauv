@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1336116170527517}
+  m_IsPrefabParent: 1
+--- !u!1 &1336116170527517
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4623332481000646}
+  - component: {fileID: 111969734714437452}
+  - component: {fileID: 54874938941283623}
+  - component: {fileID: 65186158473226867}
+  m_Layer: 2
+  m_Name: PickableG36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4623332481000646
+Transform:
+  m_GameObject: {fileID: 1336116170527517}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -37.02057, y: 2.398935, z: -66.03563}
+  m_LocalScale: {x: 0.2290125, y: 0.2290128, z: 0.2290128}
+  m_Children:
+  - {fileID: 4675841968440215}
+  - {fileID: 4759362339486641}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!111 &111969734714437452
+Animation:
+  m_GameObject: {fileID: 1336116170527517}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!54 &54874938941283623
+Rigidbody:
+  m_GameObject: {fileID: 1336116170527517}
+  serializedVersion: 2
+  m_Mass: 5
+  m_Drag: 2
+  m_AngularDrag: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65186158473226867
+BoxCollider:
+  m_GameObject: {fileID: 1336116170527517}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4162014, y: 0.8916917, z: 5.475542}
+  m_Center: {x: 0, y: 0.1924264, z: 0.54}
+--- !u!1 &1066803618261082
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4675841968440215}
+  - component: {fileID: 33001950287208268}
+  - component: {fileID: 23883915319429052}
+  - component: {fileID: 111563615371639772}
+  - component: {fileID: 114716223466477662}
+  m_Layer: 2
+  m_Name: G36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4675841968440215
+Transform:
+  m_GameObject: {fileID: 1066803618261082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.129719, y: 1.12972, z: 1.12972}
+  m_Children: []
+  m_Father: {fileID: 4623332481000646}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33001950287208268
+MeshFilter:
+  m_GameObject: {fileID: 1066803618261082}
+  m_Mesh: {fileID: 4300000, guid: ad82bbb4a4e87ba4e96f5b74d4332cc9, type: 2}
+--- !u!23 &23883915319429052
+MeshRenderer:
+  m_GameObject: {fileID: 1066803618261082}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 95b47b41e4078464b86361658d6f95f4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111563615371639772
+Animation:
+  m_GameObject: {fileID: 1066803618261082}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114716223466477662
+MonoBehaviour:
+  m_GameObject: {fileID: 1066803618261082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfd610510fccdd4f9de7db35653cc41, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  renderer: {fileID: 23883915319429052}
+  offsetCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1515055772012461
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4759362339486641}
+  - component: {fileID: 65243464199865499}
+  - component: {fileID: 114357299591350375}
+  m_Layer: 2
+  m_Name: Pickupable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4759362339486641
+Transform:
+  m_GameObject: {fileID: 1515055772012461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4623332481000646}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65243464199865499
+BoxCollider:
+  m_GameObject: {fileID: 1515055772012461}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114357299591350375
+MonoBehaviour:
+  m_GameObject: {fileID: 1515055772012461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c8d1f4bd104c4b9efbc3afecc0f55, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pickupableType: 0
+  pickupableName: G36
+  inside: 0
+  PickSound: {fileID: 0}
+  GenericSound: {fileID: 0}
+  spawnGroupID:
+  enterStealthMode: 0
+  pickupedObject: {fileID: 0}
+  startingPoint: {fileID: 0}
+  containingObject: {fileID: 0}
+  treasureID: -1
+  treasureObject: {fileID: 0}
+  treasureSound: {fileID: 0}
+  kickableObject: {fileID: 0}
+  spawner: {fileID: 0}
+  currentBullets: -1
+  currentRounds: -1
