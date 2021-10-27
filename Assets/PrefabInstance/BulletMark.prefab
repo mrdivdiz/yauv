@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1003522479661569}
+  m_IsPrefabParent: 1
+--- !u!1 &1003522479661569
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4360916184805123}
+  - component: {fileID: 114446593236504838}
+  - component: {fileID: 114365627420242410}
+  m_Layer: 0
+  m_Name: BulletMark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4360916184805123
+Transform:
+  m_GameObject: {fileID: 1003522479661569}
+  m_LocalRotation: {x: 0, y: 0.0568085, z: 0, w: -0.9983851}
+  m_LocalPosition: {x: -34.45057, y: -0.1571347, z: 64.70827}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 6.51328, z: 0}
+--- !u!114 &114446593236504838
+MonoBehaviour:
+  m_GameObject: {fileID: 1003522479661569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75187829cdeca504fa78cc8a53947962, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  concrete:
+  - {fileID: 2800000, guid: 6b79dfef976bf0e44827d5145ca63d03, type: 3}
+  - {fileID: 2800000, guid: 7a00f4fd715519549ad77c4cb803f0d3, type: 3}
+  - {fileID: 2800000, guid: 5db1a86e959982048a82005a95dd6059, type: 3}
+  wood:
+  - {fileID: 2800000, guid: 8b6b05b3664bb434eaf734d610b3a977, type: 3}
+  - {fileID: 2800000, guid: b30e4e45ffb8a2f478e1c697f1d2dd99, type: 3}
+  - {fileID: 2800000, guid: de6c782d6f246a348b12d637bb2b3a18, type: 3}
+  metal:
+  - {fileID: 2800000, guid: 38328266deba3c04980a2cd66ef2180b, type: 3}
+  - {fileID: 2800000, guid: e3c67a0e692995243aa58819ec33e31e, type: 3}
+  - {fileID: 2800000, guid: eb3888986d4ca304480d39b6683ae608, type: 3}
+  oldMetal:
+  - {fileID: 2800000, guid: 92139e483f739d14a9a644f49524dcfc, type: 3}
+  - {fileID: 2800000, guid: 1088bf00fad203a43b99e705ee46b4d5, type: 3}
+  - {fileID: 2800000, guid: d428cfb6e480f3f4bab230ebd18dbc74, type: 3}
+  glass:
+  - {fileID: 2800000, guid: 2a3423cf08cb9a840956342c665aa47e, type: 3}
+  - {fileID: 2800000, guid: b18e1078d66505b40b72402be22fe1f2, type: 3}
+  - {fileID: 2800000, guid: 393fdca9c3b807046b2fe3e8d7aaf860, type: 3}
+  generic:
+  - {fileID: 2800000, guid: 74e13155a3005604db134078c6e13c5b, type: 3}
+  - {fileID: 2800000, guid: aa276e064f436124e955e8fe1310c456, type: 3}
+  - {fileID: 2800000, guid: a1b930a552784774eaa02b68763e48e6, type: 3}
+  - {fileID: 2800000, guid: 538cd3eb4bfa2784ba737cfbe5675814, type: 3}
+  blood:
+  - {fileID: 2800000, guid: 802487f9e18bed04b973ee02c6bd8fd1, type: 3}
+  - {fileID: 2800000, guid: a410790cb26c81145befbc98d6377e6c, type: 3}
+  - {fileID: 2800000, guid: 024f8f11e5024684a8d35af22c4a3879, type: 3}
+  - {fileID: 2800000, guid: cb1254e48efa2dd4286da857936675aa, type: 3}
+--- !u!114 &114365627420242410
+MonoBehaviour:
+  m_GameObject: {fileID: 1003522479661569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7e8d58c5c9d2c408e933e649baf1e2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  affectedObjects: []
+  maxAngle: 90
+  bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  previousUVAngle: 0
+  previousPosition: {x: -34.45057, y: -0.1571347, z: 64.70827}
+  previousRotation: {x: 0, y: 0.0568085, z: 0, w: -0.9983851}
+  previousScale: {x: 0.15, y: 0.15, z: 0.1}
+  previousMaxAngle: 90
+  previousPushDistance: 0.002
+  previousTiling: {x: 1, y: 1}
+  previousOffset: {x: 0, y: 0}
+  useMeshCollider: 0
+  tiling: {x: 1, y: 1}
+  offset: {x: 0, y: 0}
+  uvAngle: 0
+  decalMaterial: {fileID: 2100000, guid: 5c6edce69f7e56f4c95b8d09af5363cf, type: 2}
+  decalMode: 1
+  bottomPlane: {x: 0, y: 1.192093E-07, z: -1, w: -1.792075}
+  topPlane: {x: 0, y: -1.192093E-07, z: 1, w: 1.942075}
+  leftPlane: {x: -0.1134333, y: -0.9935458, z: -1.352233E-08, w: -2.50439}
+  rightPlane: {x: 0.1134333, y: 0.9935458, z: 1.352233E-08, w: 2.65439}
+  frontPlane: {x: -0.9935457, y: 0.1134332, z: -1.184399E-07, w: 2.062288}
+  backPlane: {x: 0.9935457, y: -0.1134332, z: 1.184399E-07, w: -1.962288}
+  decalNormal: {x: -0.9935457, y: 0.1134332, z: -1.184399E-07}
+  decalCenter: {x: 1.706712, y: -2.791002, z: -1.867075}
+  decalTangent: {x: -0.1134333, y: -0.9935458, z: -1.352233E-08}
+  decalBinormal: {x: 0, y: -1.192093E-07, z: 1}
+  decalSize: {x: 0.15, y: 0.15, z: 0.09999998}
+  pushDistance: 0.04
+  checkAutomatically: 0
+  affectedLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  affectOtherDecals: 0
+  affectInactiveRenderers: 1
+  showAffectedObjectsOptions: 0
+  showObjects: 0

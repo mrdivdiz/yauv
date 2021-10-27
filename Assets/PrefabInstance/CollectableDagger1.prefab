@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1292213979852618}
+  m_IsPrefabParent: 1
+--- !u!1 &1292213979852618
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4356838188808726}
+  - component: {fileID: 111470593009821271}
+  - component: {fileID: 54303482989746593}
+  - component: {fileID: 65268856390226118}
+  m_Layer: 2
+  m_Name: CollectableDagger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4356838188808726
+Transform:
+  m_GameObject: {fileID: 1292213979852618}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -129.1734, y: 12.29648, z: -356.4502}
+  m_LocalScale: {x: 0.2666031, y: 0.2666035, z: 0.2666035}
+  m_Children:
+  - {fileID: 4994978854028755}
+  - {fileID: 4088424080969389}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!111 &111470593009821271
+Animation:
+  m_GameObject: {fileID: 1292213979852618}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!54 &54303482989746593
+Rigidbody:
+  m_GameObject: {fileID: 1292213979852618}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 2
+  m_AngularDrag: 2
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65268856390226118
+BoxCollider:
+  m_GameObject: {fileID: 1292213979852618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2962014, y: 0.8916917, z: 5.475542}
+  m_Center: {x: 1.399508, y: 0.1924264, z: 0.54}
+--- !u!1 &1005365905322876
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4994978854028755}
+  - component: {fileID: 33233987390918584}
+  - component: {fileID: 23453432818501489}
+  - component: {fileID: 111470298776882137}
+  m_Layer: 2
+  m_Name: Gold_Dagger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4994978854028755
+Transform:
+  m_GameObject: {fileID: 1005365905322876}
+  m_LocalRotation: {x: 6.692203E-08, y: -0.5635565, z: 1.141573E-08, w: 0.8260775}
+  m_LocalPosition: {x: 1.398247, y: -1.666838E-07, z: 0}
+  m_LocalScale: {x: 2.85976, y: 2.859757, z: 2.859758}
+  m_Children: []
+  m_Father: {fileID: 4356838188808726}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.53443E-05, y: 68.60423, z: 8.884437E-06}
+--- !u!33 &33233987390918584
+MeshFilter:
+  m_GameObject: {fileID: 1005365905322876}
+  m_Mesh: {fileID: 4300000, guid: 99c380798966f5842ae44606317fae8f, type: 2}
+--- !u!23 &23453432818501489
+MeshRenderer:
+  m_GameObject: {fileID: 1005365905322876}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 782a3b700af7c56459a256e8a6d4de19, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111470298776882137
+Animation:
+  m_GameObject: {fileID: 1005365905322876}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 94ff081723d64ed47ba1416c1589a244, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1257075828563658
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4088424080969389}
+  - component: {fileID: 65405041202006318}
+  - component: {fileID: 114700225944155386}
+  m_Layer: 2
+  m_Name: Pickupable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4088424080969389
+Transform:
+  m_GameObject: {fileID: 1257075828563658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.358888, y: -1.619918E-07, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 4356838188808726}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65405041202006318
+BoxCollider:
+  m_GameObject: {fileID: 1257075828563658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114700225944155386
+MonoBehaviour:
+  m_GameObject: {fileID: 1257075828563658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c8d1f4bd104c4b9efbc3afecc0f55, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pickupableType: 1
+  pickupableName: Dagger1
+  inside: 0
+  PickSound: {fileID: 8300000, guid: 0ec17ae342e72a94580a92b070c6af21, type: 3}
+  GenericSound: {fileID: 0}
+  spawnGroupID:
+  enterStealthMode: 0
+  pickupedObject: {fileID: 0}
+  startingPoint: {fileID: 0}
+  containingObject: {fileID: 0}
+  treasureID: -1
+  treasureObject: {fileID: 0}
+  treasureSound: {fileID: 0}
+  kickableObject: {fileID: 0}
+  spawner: {fileID: 0}
+  currentBullets: -1
+  currentRounds: -1
