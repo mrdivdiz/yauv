@@ -1,12 +1,22 @@
 # yauv
 
-**24.10.21 Cannot upload source code due to unknown reasons.Cannot reach github, vkontakte or even mega properly.VPN is not starting too.**
+**03.11.21 Update indev.TODO is listed below.**
 
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
 
-Known bugs: A LOT (navigate to issues)
+**Known bugs:**
 
-Nearest TODO: ...
+Crash after death in the prologue
+
+
+**Nearest TODO:**
+
+- LOD system in progress
+- Improved textures
+- Rip unused materials
+- Master better post-effects
+- Add Survival level support
+
 
 **No ragdolls because the way they made is no longer supported in Unity 5**
 
