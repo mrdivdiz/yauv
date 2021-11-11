@@ -1,6 +1,6 @@
 # yauv
 
-**03.11.21 Update indev.TODO is listed below.**
+**11.11.21 Found a CRITICAL perfomance bug related to mesh import.**
 
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
 
