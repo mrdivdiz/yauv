@@ -1,6 +1,6 @@
 # yauv
 
-**11.11.21 Found a CRITICAL perfomance bug related to mesh import.**
+**25.11.21 Release almost ready.**
 
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
 
@@ -11,10 +11,7 @@ Crash after death in the prologue
 
 **Nearest TODO:**
 
-- LOD system in progress
-- Improved textures
-- Rip unused materials
-- Master better post-effects
+- Master lightweight DoF with no blur
 - Add Survival level support
 
 
