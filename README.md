@@ -1,6 +1,6 @@
 # yauv
 
-**25.11.21 Release almost ready.**
+**27.11.21 Release v0.9.1.**
 
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
 
@@ -11,7 +11,9 @@ Crash after death in the prologue
 
 **Nearest TODO:**
 
-- Master lightweight DoF with no blur
+- Implement separate rendering via 2 cameras, where background is in lower resolution and without any post-effects
+- Remove debug console
+- Push vita post-effects with separated rendering to github as a standalone package with required explainations
 - Add Survival level support
 
 
