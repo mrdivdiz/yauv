@@ -1,6 +1,6 @@
 # yauv
 
-**03.11.21 Update indev.TODO is listed below.**
+**27.11.21 Release v0.9.1.**
 
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
 
@@ -11,10 +11,9 @@ Crash after death in the prologue
 
 **Nearest TODO:**
 
-- LOD system in progress
-- Improved textures
-- Rip unused materials
-- Master better post-effects
+- Implement separate rendering via 2 cameras, where background is in lower resolution and without any post-effects
+- Remove debug console
+- Push vita post-effects with separated rendering to github as a standalone package with required explainations
 - Add Survival level support
 
 
