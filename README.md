@@ -16,7 +16,8 @@ Crash after death in the prologue
 - Push vita post-effects with separated rendering to github as a standalone package with required explainations
 - Add Survival level support
 - Language fonts?
-- Settings GUI IS thrashed.
+- Settings GUI IS thrashed
+- Do something with DoF
 
 
 **No ragdolls because the way they made is no longer supported in Unity 5**
