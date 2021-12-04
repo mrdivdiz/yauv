@@ -3,6 +3,7 @@
 **27.11.21 Release v0.9.1.**
 
 Yet Another Unearthed Vita - Unearthed: Trail of Ibn Battuta port
+Overclocking is persistent for this project to run smooth.
 
 **Known bugs:**
 
