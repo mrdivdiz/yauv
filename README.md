@@ -1,3 +1,5 @@
+```diff
+- This repo sucks
 # yauv
 
 **27.11.21 Release v0.9.1.**
