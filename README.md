@@ -1,5 +1,8 @@
 ```diff
-- This repo is no longer maintained since there is no way to provide DMCA-aligned build without any copyright data.So basically this projects is provided as is and to run unity project properly you have to obtain Texture2D and AudioSource folders from your legit copy.Sorry about that.
+- This repo is no longer maintained since there is no way to provide DMCA-aligned
+build without any copyright data.So basically this projects is provided as is and
+to run unity project properly you have to obtain Texture2D and AudioSource folders
+from your legit copy.Sorry about that.
 # yauv
 
 **27.11.21 Release v0.9.1.**
